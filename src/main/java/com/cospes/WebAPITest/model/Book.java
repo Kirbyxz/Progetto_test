@@ -21,6 +21,7 @@ public class Book {
         this.setTitolo(titolo);
         this.setAutore(autore);
 
+
     }
 
 
@@ -39,4 +40,6 @@ public class Book {
     public void setAutore(String autore) {
         this.autore = autore;
     }
+    public Long getId() {return id; }
+
 }
