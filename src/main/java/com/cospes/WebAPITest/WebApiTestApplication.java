@@ -1,0 +1,13 @@
+package com.cospes.WebAPITest;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class WebApiTestApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(WebApiTestApplication.class, args);
+	}
+
+}
